@@ -42,3 +42,38 @@ html {
 .main__card-one .main__icons-container:last-child {
   line-height: 60px;
 }
+.main__card-two {
+  height: 160px;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #dddbff;
+  background-color: #1d2c67;
+  border-radius: 10px;
+}
+.main__card-two .main__space-bar {
+  position: relative;
+  width: 90%;
+  height: 25px;
+  margin: 0 auto;
+  background-color: #0c122c;
+  border-radius: 50px;
+}
+.main__card-two .main__space-bar-fill {
+  position: absolute;
+  top: 3px;
+  left: 4px;
+  width: 75%;
+  height: 19px;
+  background: linear-gradient(90deg, #ffa399 0%, #ff4d97 100%);
+  border-radius: 50px;
+}
+.main__card-two .main__space-bar-fill .main__circle {
+  position: absolute;
+  top: 2px;
+  left: calc(100% - 18px);
+  width: 15px;
+  height: 15px;
+  background-color: #fff;
+  border-radius: 50%;
+}

@@ -105,3 +105,18 @@ html {
   font-size: 3.6rem;
   color: #0c122c;
 }
+.footer {
+  margin-top: 90px;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #dddbff;
+}
+.footer a {
+  font-weight: 900;
+  text-decoration: none;
+  color: #fff;
+}
+.footer a:hover {
+  color: #ffa399;
+  text-decoration: underline;
+}

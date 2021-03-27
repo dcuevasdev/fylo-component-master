@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 720px;
+  height: 100vh;
+}
+.main__card-one {
+  width: 260px;
+  margin-top: 0;
+}
+.main__card-two {
+  width: 440px;
+}
+.footer {
+  margin-top: -30px;
+}

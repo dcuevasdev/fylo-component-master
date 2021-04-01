@@ -1,0 +1,33 @@
+.container {
+  width: 920px;
+}
+.main__card-one {
+  width: 315px;
+}
+.main__card-two {
+  width: 570px;
+  height: 140px;
+  margin-top: 40px;
+  text-align: left;
+}
+.main__card-two .main__text {
+  padding-left: 25px;
+}
+.main__card-two .main__float-card {
+  top: -25%;
+  left: calc(100% - 215px);
+  border-bottom-right-radius: 0;
+}
+.main__card-two .main__float-card:after {
+  content: "";
+  position: absolute;
+  top: 95%;
+  left: calc(100% - 30px);
+  display: block;
+  width: 0;
+  height: 0;
+  border-right: 15px solid #fff;
+  border-top: 15px solid #fff;
+  border-left: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+}

@@ -31,3 +31,8 @@
   border-left: 15px solid transparent;
   border-bottom: 15px solid transparent;
 }
+@media (min-width: 1439px) {
+  body {
+    background-position-y: 53vh;
+  }
+}
